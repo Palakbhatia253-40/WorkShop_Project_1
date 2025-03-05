@@ -8,7 +8,6 @@ st.title("Chat with Palak")
 text = st.text_input("Enter your name")
 ans = st.button("Check Answer")
 
-
 def output(que):
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",

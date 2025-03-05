@@ -9,6 +9,6 @@
 # x train
 # y test
 # y train
-
+# x independent , y dependent
 # compare y train and y test , then see the data performnace.
 
