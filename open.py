@@ -12,7 +12,7 @@ ans = st.button("Check Answer")
 def output(que):
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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"  
+        api_key="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"  
     )
 
     completion = client.chat.completions.create(
