@@ -1,3 +1,4 @@
+# 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
 from openai import OpenAI
 import streamlit as st  
 
@@ -13,7 +14,7 @@ ans = st.button("Check Answer")
 def output(que):
     client = OpenAI(
         base_url="https://openrouter.ai/api/v1",
-        api_key="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"  
+        api_key="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"  
     )
 
     completion = client.chat.completions.create(
